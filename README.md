@@ -9,7 +9,7 @@ This folder includes MATLAB m files for (1) modified CaliPro...
 Additionally data from Malek et al [ref] is included as CSV files.
 
 
-03- Transwell Model Simulation
+03-Transwell Assay Simulation
 
 
 04- Vaccine Module
