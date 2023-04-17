@@ -3,7 +3,7 @@ Here we present the first kinetic dynamic model of antibody transfer through the
 
 (0) Parameters_Erdogan.m includes the estimated parameter set using CaliPro that was used as the baseline model in the manuscript.  It is taken as input into models in modules 01 and 04.
 
-%%%%%%%%%%01-Dynamic model%%%%%%%%%%
+%%%%%%%%%%%%%%%01-Compartmental Model of Placental Transfer%%%%%%%%%%%%%%%
 
 This folder includes two MATLAB *.m files which call and numerically solve the compartmental IgG transfer model:
 
@@ -43,7 +43,7 @@ This folder contains an ODE model which simulates IgG transcytosis in HUVEC in a
 
 (4) Erdogan_2023_transwell_data.xlsx - An Excel spreadsheet containing experimental data used to optimize and validate the model, presented in Figures 4 and S6 of the manuscript.
 
-%%%%%%%%%%%04- Vaccine Module%%%%%%%%%%%
+%%%%%%%%%%%04- Maternal Vaccination and Placental Transfer Combined%%%%%%%%%%%
 
 This folder contains two *.m files which analyze the vaccination model.  The files included are:
 
