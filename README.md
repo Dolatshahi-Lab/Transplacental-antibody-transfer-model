@@ -11,7 +11,7 @@ This folder includes two MATLAB *.m files which call and numerically solve the c
 
 (2) diggdt_driver.m calls and numerically solves the ODEs and plots the output.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%02-Parameter Estimation and Sensitivity Analysis%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%02-Parameter Estimation and Sensitivity Analysis%%%%%%%%%%%
 
 This folder includes MATLAB *.m files for modified CaliPro calibration protocol from Joslyn, L. et al (2020) (10.1007/s12195-020-00650-z). Additionally data from Malek, A. et al (1996) (10.1111/j.1600-0897.1996.tb00172.x) is included as CSV files and is called in the calibration protocol.  The files include:
 
@@ -31,7 +31,7 @@ This folder includes MATLAB *.m files for modified CaliPro calibration protocol 
 
 (9) PLSR_global_sensitivity_analysis_driver.m - A sample code to run partial least squares discriminant analysis (PLSR) global sensitivity analysis with LHS parameter sets.  This file generates perturbed parameter sets using LHS_Call_RE.m and calls PLSRmain.m, a file which performs PLSR analysis.  The user will need the DolatshahiLab/PLSR-DA_MATLAB repository (DolatshahiLab/PLSR-DA_MATLAB (github.com)) available on GitHub to run this file.
 
-%%%%%%%%%%%%%%%%03-Transwell Assay Simulation%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%03-Transwell Assay Simulation%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 This folder contains an ODE model which simulates IgG transcytosis in HUVEC in an in vitro Transwell assay system.  The files include:
 
@@ -43,7 +43,7 @@ This folder contains an ODE model which simulates IgG transcytosis in HUVEC in a
 
 (4) Erdogan_2023_transwell_data.xlsx - An Excel spreadsheet containing experimental data used to optimize and validate the model, presented in Figures 4 and S6 of the manuscript.
 
-%%%%%%%%%%%04- Maternal Vaccination and Placental Transfer Combined%%%%%%%%%%%
+%%%%%%%%%%%%04- Maternal Vaccination and Placental Transfer Combined%%%%
 
 This folder contains two *.m files which analyze the vaccination model.  The files included are:
 
