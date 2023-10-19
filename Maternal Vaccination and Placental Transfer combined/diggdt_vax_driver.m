@@ -19,7 +19,7 @@ ColorOrder = [0.87, 0.443, 0.3569; 0.706, 0.87, 0.286; 0.302, 0.851, 1; 0.251, 0
 
 %% Solve the model. %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-solution = ode23s(@(t,x) diggdt_vax(t,x,p), tspan, y0);
+solution = ode23s(@(t,x) diggdt_vax(t,x,p,1), tspan, y0);
 
 %% Plot fetal IgG subclass levels following vaccination at tvax. %%%%%%%%%%
 figure(1)
@@ -39,7 +39,7 @@ title('IgG4'); xlabel('Gestational Age (weeks)'); ylabel('Fetal IgG4 (M)')
 %% Plot maternal IgG subclass levels following vaccination at tvax. %%%%%%%
 figure(2)
 subplot(1,4,1)
-plot(solution.x,solution.y(31,:),'linewidth',2,'color',ColorOrder(1,:))
+plot(solution.x,sum(solution.y(31:34,:)),'linewidth',2,'color',ColorOrder(1,:))
 title('IgG1'); xlabel('Gestational Age (weeks)'); ylabel('Fetal IgG1 (M)')
 subplot(1,4,2)
 plot(solution.x,solution.y(32,:),'linewidth',2,'color',ColorOrder(1,:))
