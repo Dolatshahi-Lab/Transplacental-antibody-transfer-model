@@ -1,7 +1,7 @@
 # Transplacental-antibody-transfer-model
 Here we present the first kinetic dynamic model of antibody transfer through the placenta. The components of the model and the results figures are organized as follows:
 
-(0) Parameters_Erdogan.m includes the estimated parameter set using CaliPro that was used as the baseline model in the manuscript.  It is taken as input into models in modules 01 and 04.
+(0) parameters_Erdogan.m includes the estimated parameter set using CaliPro that was used as the baseline model in the manuscript.  It is taken as input into models in modules 01 and 04.
 
 %%%%%%%%%%%%%%%01-Compartmental Model of Placental Transfer%%%%%%%%%%%%%%%
 
