@@ -51,5 +51,7 @@ This folder contains two *.m files which analyze the vaccination model.  The fi
 
 (2) diggdt_vax_driver.m - A file which calls and numerically solves the ODEs in diggdt_vax.m.  The user can specify p.tvax in this script to test different immunization strategies.
 
+%%%%%DEPENDENCIES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+- You will need Matlab's Curve Fitting Toolbox installed to run the base model.
 
